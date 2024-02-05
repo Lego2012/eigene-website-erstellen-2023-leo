@@ -1,26 +1,26 @@
 {
-  "name": "mitmario.dev",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev --host",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^2.1.1",
-    "@astrojs/tailwind": "^5.1.0",
-    "@iconify-json/logos": "^1.1.42",
-    "@iconify-json/mdi": "^1.1.64",
-    "@iconify-json/ph": "^1.1.11",
-    "@swup/a11y-plugin": "^4.5.0",
-    "@swup/head-plugin": "^2.1.2",
-    "@swup/scroll-plugin": "^3.3.1",
-    "astro": "^4.3.2",
-    "astro-icon": "^1.1.0",
-    "swup": "^4.5.2",
-    "tailwindcss": "^3.4.1"
-  }
+   "name": "mitmario.dev",
+   "type": "module",
+   "version": "0.0.1",
+   "scripts": {
+      "dev": "astro dev --host",
+      "start": "astro dev",
+      "build": "astro build",
+      "preview": "astro preview",
+      "astro": "astro"
+   },
+   "dependencies": {
+      "@astrojs/mdx": "^2.1.1",
+      "@astrojs/tailwind": "^5.1.0",
+      "@iconify-json/logos": "^1.1.42",
+      "@iconify-json/mdi": "^1.1.64",
+      "@iconify-json/ph": "^1.1.11",
+      "@swup/a11y-plugin": "^4.5.0",
+      "@swup/head-plugin": "^2.1.2",
+      "@swup/scroll-plugin": "^3.3.1",
+      "astro": "^4.3.2",
+      "astro-icon": "^1.1.0",
+      "swup": "^4.5.2",
+      "tailwindcss": "^3.4.1"
+   }
 }
