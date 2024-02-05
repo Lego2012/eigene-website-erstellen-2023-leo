@@ -6,7 +6,7 @@ Sein damals angelegtes Repository:
 
 [Marios Repo](git@github.com:ProgrammierenM/eigene-website-erstellen-2023.git)
 
-Ich habe Mario's hervorragendes Projekt am 5.2.24 angepasst und die neuen Funktionen wie Astro-Icon eingebaut. Auch das neue Astro-Image habe ich berücksichtigt. Die hier verwendete Astro-Version ist 4.3.2
+Ich habe Mario's hervorragendes Projekt am 5.2.24 angepasst und die neuen Funktionen wie Astro-Icon eingebaut. Auch das neue Astro-Image habe ich berücksichtigt. Die hier verwendete Astro-Version ist 4.3.2. Swuup habe ich natürlich dringelassen, obwohl man das jetzt auch mit den Astro View Transisitions umsetzen könnte.
 
 [Leos Repo](https://github.com/Lego2012/eigene-website-erstellen-2023-leo)
 
