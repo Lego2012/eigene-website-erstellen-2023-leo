@@ -1,0 +1,15 @@
+---
+import { Icon } from "astro-icon/components";
+
+const { title, icon, url, target = "_blank", css } = Astro.props;
+---
+
+<a href={url} target={target} class="hidden md:block relative group">
+   <Icon
+      name={icon}
+      title={title}
+      width={28}
+      height={28}
+      class={`relative ${css} top-0 group-hover:-top-1 transition-[top] ease duration-300`}
+   />
+</a>

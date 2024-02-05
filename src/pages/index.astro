@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import Button from "../components/Button.astro";
+
+import devguy from "../images/developer-guy.png";
+---
+
+<Layout title="Startseite" description="Das ist meine Startseite">
+   <div class="flex flex-col xl:flex-row justify-between items-center">
+      <div
+         class="w-3/4 sm:w-3/5 xl:w-1/2 flex justify-center items-center py-10"
+      >
+         <Image
+            src={devguy}
+            width={1200}
+            height={1100}
+            quality={80}
+            format="webp"
+            alt="Das bin ich"
+         />
+      </div>
+      <div
+         class="w-full xl:w-1/2 flex flex-col justify-between items-center xl:items-start"
+      >
+         <div class="text-4xl md:text-6xl text-center xl:text-start mb-4">
+            Visionen mit<br />
+            Code und <span
+               id="dynamic-header-text"
+               class="text-blue-700 dark:text-green-400">Design</span
+            ><br />
+            zum Leben erwecken
+         </div>
+         <div class="mb-6 text-center xl:text-start leading-relaxed">
+            Du wolltest schon immer wissen wie du eine Website programmierst?
+            Ich zeige dir in zahlreichen Tutorials wie du das mit HTML, CSS und
+            JavaScript am besten machst. Update!
+         </div>
+         <div class="flex items-center">
+            <Button
+               url="https://www.youtube.com/@ProgrammierenMario/videos"
+               title="Tutorials"
+               external={true}
+            />
+            <a
+               href="mailto:support@email.de"
+               class="ml-4 font-medium text-dark dark:text-light underline"
+               >Kontakt
+            </a>
+         </div>
+      </div>
+   </div>
+</Layout>
